@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2020",
+    "sourceMap": true,
+    "outDir": "dist",
+    "noImplicitAny": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "typeRoots": ["node_modules/@types","@types"]
+    //"esModuleInterop": true,
+    //"skipLibCheck": true
+  },
+  "ts-node": {"files": true},
+  
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500&display=swap');
+
+.navbarLoggedUserTab{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.navbarLoggedUserText{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: normal;
+    color: black;
+    font-size: large;
+    margin: 1rem;
+}
+
+.navbarTab{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 500;
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.navbarTab:hover{
+    color: #713ABE;
+}

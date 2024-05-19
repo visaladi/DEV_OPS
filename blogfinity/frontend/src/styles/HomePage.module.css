@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500&display=swap');
+
+.homePageTop{
+    display: flex;
+}
+
+.fill{
+    width: 40%;
+    background: #EBE4FF;
+}
+
+.homePageImg{
+    width: 60%;
+    height: auto;
+}
+
+.homePageTopContent{
+    margin-left: 80px;
+    position: absolute;
+    bottom: 200px;
+    left: 20px;
+}
+
+.homePageText{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 100px;
+}
+
+.text{
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+.seperateColorText{
+    display: flex;
+    margin: 0;
+}
+
+.seperateColorTextOne{
+    margin: 0;
+}
+
+.seperateColorTextTwo{
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #8765FF;
+}
+
+.homePageMiddleContent{
+    margin-top: 5rem;
+    margin-bottom: 5.5rem;
+}
+
+.homePageCards{
+    display: grid;
+    margin: auto;
+    max-width: max-content;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}

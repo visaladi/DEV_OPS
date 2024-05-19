@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
+
+.blogFeed{
+    margin-bottom: 5rem;
+}
+
+.blogCardView{
+    display: grid;
+    margin: auto;
+    max-width: max-content;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.contentTopPart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-left: 16rem;
+    margin-right: 16rem;
+    margin-top: 1rem;
+}
+
+.contentText{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+.searchBar{
+    display: flex;
+    align-items: center;
+}
+
+.searchBarText{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 400;
+    font-size: larger;
+    margin-right: 1rem;
+}
+
+.searchBarInput{
+    height: 40px;
+    width: 340px;
+    background: #EBE4FF;
+    border-radius: 30px 0 0 30px;
+    border-color: #EBE4FF;
+    border: none;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: large;
+    padding-left: 20px;
+}
+
+.searchBarInput:focus{
+    outline: none;
+}
+
+.searchBarButton{
+    background: #EBE4FF;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 0 30px 30px 0;
+}
+
+.searchBarButton:hover{
+    background: #BEADFA;
+}
+
+.searchBarButton:active{
+    background: #EBE4FF;
+}
+
+.searchBarIcon{
+    width: 20px;
+    height: 20px;
+}

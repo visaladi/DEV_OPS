@@ -1,0 +1,47 @@
+.pageContent{
+    margin-bottom: 4rem;
+}
+
+.contentTopPart{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-left: 16rem;
+    margin-right: 16rem;
+    margin-top: 1rem;
+}
+
+.contentText{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 500;
+    font-size: xx-large;
+    margin-bottom: 1rem;
+}
+
+.backButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 15px;
+    background: transparent;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    margin-left: -80px;
+    border: none;
+}
+
+.btnIcon{
+    width: 40px;
+    height: 40px;
+    color: black;
+}
+
+.btnIcon:hover{
+    color: #393E46;
+}
+
+.btnIcon:active{
+    color: black;
+}

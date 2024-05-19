@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500&display=swap');
+
+.mainButton{
+    width: 120px;
+    height: 40px;
+    background: black;
+    color: white;
+    border-radius: 30px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    text-align: center;
+}
+
+.mainButton:hover{
+    background: #393E46;
+}
+
+.mainButton:active{
+    background: black;
+}

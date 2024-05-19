@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500&display=swap');
+
+.inputField{
+    height: 35px;
+    width: 250px;
+    background: #EBE4FF;
+    border-radius: 0 30px 30px 0;
+    border-color: #EBE4FF;
+    border: none;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: large;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+}
+
+.inputField:focus{
+    outline: none;
+}
